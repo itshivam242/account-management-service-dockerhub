@@ -35,7 +35,6 @@ http://localhost:8091/accounts
 ````
 Check API endpoints below in this file to check application on postman.
 #### 4. Stop the Application
-Once the repository is cloned, use Docker Compose to start the service. This will pull the necessary Docker images and start the containers for the MySQL database and the Account Management Service.
 ```bash
 docker-compose down
 ```
