@@ -27,14 +27,14 @@ Once the repository is cloned, use Docker Compose to start the service. This wil
 ```bash
 docker-compose up
 ```
-#### 4. Verify the Application
+#### 3. Verify the Application
 
 Once Docker Compose has finished setting up, you can verify the application by accessing the Account Management Service at:
 ```bash
 http://localhost:8091/accounts
 ````
 Check API endpoints below in this file to check application on postman.
-#### 5. Stop the Application
+#### 4. Stop the Application
 Once the repository is cloned, use Docker Compose to start the service. This will pull the necessary Docker images and start the containers for the MySQL database and the Account Management Service.
 ```bash
 docker-compose down
